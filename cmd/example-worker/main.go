@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/stripe/aws-go/aws"
-	"github.com/stripe/aws-go/gen/sqs"
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/service/sqs"
 
 	"github.com/nabeken/golang-sqs-worker-example/worker"
 )
