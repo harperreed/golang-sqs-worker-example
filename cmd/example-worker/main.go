@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sqs"
 
-	"github.com/nabeken/golang-sqs-worker-example/worker"
+	"github.com/harperreed/golang-sqs-worker-example/worker"
 )
 
 var flagQueue = flag.String("q", "example", "specify a queue name")
